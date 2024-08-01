@@ -34,7 +34,7 @@ def calci():
         os.system("cls")
         calci()
     elif cont=="x":
-        cont=False
+        flag=False
   print("BYE")
 
 calci()
