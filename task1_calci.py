@@ -1,4 +1,5 @@
 # SIMPLE CALCULATOR for integers
+import os
 
 def add(a,b):
   return a+b
@@ -24,7 +25,7 @@ def calci():
     num2=int(input("Enter second number:"))
     calu=oper[opsym]
     output=calu(num1,num2)
-    printf(f"{num1} {opsym} {num2} = {output}")
+    print(f"{num1} {opsym} {num2} = {output}")
     cont=input(f"Enter 'y' to continue with {output} (or) 'n' to start (or) 'x' to exit:").lower()
     if cont=="y":
         num1=output
