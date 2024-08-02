@@ -1,6 +1,4 @@
 # SIMPLE CALCULATOR for integers
-import os
-
 def add(a,b):
   return a+b
 
@@ -31,7 +29,6 @@ def calci():
         num1=output
     elif cont=="n":
         flag=False
-        os.system("cls")
         calci()
     elif cont=="x":
         flag=False
