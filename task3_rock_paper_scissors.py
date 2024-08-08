@@ -1,4 +1,5 @@
 import random
+import os
 
 while True:
     choices = ["rock", "paper", "scissors"]
@@ -33,5 +34,7 @@ while True:
     play_again=input("Play again(yes/no):").lower()
     if play_again != "yes":
         break
+    else:
+        os.system("cls")
 
 print("BYE!!!")
